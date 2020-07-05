@@ -1,5 +1,5 @@
 ---
-title:  "Welcome to Jekyll!"
+title:  "My first blog post test page"
 ---
 
 ## Just testing 
