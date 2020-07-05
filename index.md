@@ -8,7 +8,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 {% for item in site.data.navigation %}
     <li>
-        <a href="{{ item.url | absolute_url }}">{{ item.title }}</a>
+        <a href="{{ item.link | absolute_url }}">{{ item.name }}</a>
     </li>
 {% endfor %}
 
