@@ -6,9 +6,9 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 
 <li>
-{% for item in site.data.navigation %}
+    {% for item in site.data.navigation %}
         <a href="{{ item.link | absolute_url }}">{{ item.name }}</a>
-{% endfor %}
+    {% endfor %}
 </li>
 
 ## links to post
