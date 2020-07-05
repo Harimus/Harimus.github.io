@@ -5,13 +5,13 @@ You can use the [editor on GitHub](https://github.com/Harimus/Harimus.github.io/
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 
-
+<li>
 {% for item in site.data.navigation %}
-    <li>
+    
         <a href="{{ item.link | absolute_url }}">{{ item.name }}</a>
-    </li>
+    
 {% endfor %}
-
+</li>
 
 ## links to post
 
