@@ -7,7 +7,8 @@ excerpt_separator: <!--excerpt-->
 ---
 Here is the exceprt paragraph
 
-Here's the second paragraph that should be excluded but is here because separator
+Here's the second paragraph that should be excluded but is here because separator.
+{: .pro-tip}
 
 <!--excerpt-->
 
