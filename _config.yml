@@ -1,1 +1,13 @@
+title: "Wrong Today"
+author: "Dan Ogawa Lillrank"
+description: "Robotics Engineer turned researcher. Lost in Tokyo"
+
+twitter_username: "DanOL71607511"
+
+collections:
+  projects:
+    output: true
+
+
+
 theme: jekyll-theme-slate
