@@ -10,6 +10,7 @@
   width: 150px;
   height: 150px;
   background: #555;
+  margin: 30px;
 }
 
 .aboutmeheader h1 {
@@ -17,7 +18,10 @@
   top: 18px;
   left: 20px;
 }
+.customheader h2 {
+  font-size: 50%;
 
+}
  .pro-tip {
   background-color: rgba(237, 233, 254, 1);
   border-color: rgba(167, 139, 250, 1);
