@@ -3,8 +3,10 @@ title: ''
 ---
 # Welcome to {{site.title}} 
 
-Welcome to my blog Wrong Today! I'll share stuff I'm probably wrong about here,
-so that people can point out how wrong I am today, so I can correct myself tomorrow.
+Welcome to my blog! Here I share my ideas around topics I'm interested in, which is mainly robotics.
+
+I'll probably end-up sharing stuff I'm probably wrong about here. The intention is to get feedback from people to improve on my thought process.
+
 
 I'll think about a better blog layout after I've actually got something worth sharing published!
 
