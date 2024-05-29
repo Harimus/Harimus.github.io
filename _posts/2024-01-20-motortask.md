@@ -1,3 +1,6 @@
+---
+title: Sensory-motor tasks are harder than we like to believe
+---
 # Sensory-motor tasks are harder than we like to believe
 Tags: #blog #robotics
 
