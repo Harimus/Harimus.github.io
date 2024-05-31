@@ -13,4 +13,4 @@ I intend to use my GithubPage in two ways:
 * Share some projects I've done in my work & spare-time that I think could be worth sharing to some people. Probably software stuff in robotics, or hobbies
 
 
-
+I don't use Twitter that much because it overwhelms me. But I might post stuff now and then if you found anything on this site interesting [Twitter](https://twitter.com/DanOgawaLil)
