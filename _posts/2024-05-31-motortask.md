@@ -1,9 +1,9 @@
 ---
-title: Sensory-motor tasks are harder than we like to believe
+title: Common misconceptions about the complexity in robotics vs AI
 ---
 Tags: #blog #robotics
 
-# Sensorimotor tasks are harder than we like to believe
+# Common misconceptions about the complexity in robotics vs AI
 
 
 So now that the International Conference on Robotics and Automation(ICRA) 2024 is over, maybe it's finally time to finish up my thoughts around the difference of the problems we are faced with in robotics vs AI research and to shed light to that difference and some misconceptions. This post is mostly catered to tech-people, but I kept it light-hearted and general so I can send it to my friends. I will mention a little bit about the current (2024) advancements later in the text, and that part might be a bit more technical.
@@ -21,7 +21,7 @@ With the reignited discussion surrounding AI due to the recent advancement in la
 The main point I have to repeat is the argument that *sensorimotor task is harder than what you think*, and that the advancement in LLM does not directly transfer to some robot sensorimotor task performance(yet). In layman terms, I always have to start by saying "everyone equates the Skynet with T900 terminator, but those are two very different problems with different solutions." and while this is my personal opinion, the latter one (T900) is **a harder problem**.
 
 So I decided to write down my thoughts and some arguments for it, so that I can just refer to this post later on. This post will be aimed mostly towards people with more tech/science leaning. The specific perception I want to address can be summarized in [this  (now deleted)](https://twitter.com/DhruvBatraDB/status/1641871357020614656) reply on Twitter to a professor in robotics posting his work
-![this](/assets/images/twitter_llm_robot.png){: style="display:block; margin-left: auto; margin-right: auto;" }*LLM-bro. New protagonist to the movie Rise of the LLM-bros, the sequel to Dawn of the crypto-bro. It follows the protagonist flex-tape slapping LLM on any problem they see and call it a day.*
+![this](/assets/images/twitter_llm_robot.png){: style="display:block; margin-left: auto; margin-right: auto;" }*LLM-bro on Twitter replying to a professor in robotics that tweeted his new research paper.*
 
 This post will be divided into 3 sections. First I'll describe the (relevant part of) how current AI solutions works, then explain the difference in the problem setting for robotics and why the methods(solutions) in AI/LLM might not be enough to solve this, and finally I touch briefly about why I think many people have had hard time *wanting to even accept a central point being made* with some insights that come from this.
 
