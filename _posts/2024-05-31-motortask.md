@@ -1,11 +1,10 @@
 ---
 title: Common misconceptions about the complexity in robotics vs AI
 tldr: Why do the robots move so unnatural, now that chat bots are human-like?
+tags: ['blog', 'robotics']
 ---
-Tags: #blog #robotics
 
-# Common misconceptions about the complexity in robotics vs AI
-
+# {{page.title}}
 
 So now that the International Conference on Robotics and Automation(ICRA) 2024 is over, maybe it's finally time to finish up my thoughts around the difference of the problems we are faced with in robotics vs AI research and to shed light to that difference and some misconceptions. This post is mostly catered to tech-people, but I kept it light-hearted and general so I can send it to my friends. I will mention a little bit about the current (2024) advancements later in the text, and that part might be a bit more technical.
 

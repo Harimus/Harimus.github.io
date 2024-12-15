@@ -12,12 +12,12 @@ I'll think about a better blog layout after I've actually got something worth sh
 
 
 
-## Links to post
+### Links to recent post
 {% assign everything = site.posts | concat: site.projects | sort: 'date' | reverse %}
 
 {% for post in everything limit:5 %}
-#### [{{post.date | date_to_string}}: {{post.title}} ]({{post.url}})
-{{post.excerpt | remove_first:post.title }}
+ * [{{post.date | date_to_string}}:  {{post.title}} ]({{post.url}})
+>{{post.tldr | remove_first:post.title }}
 {% endfor %}
 
 

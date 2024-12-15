@@ -1,8 +1,7 @@
 ---
 title: ''
 ---
-
-{% assign everything = site.posts | concat: site.projects | sort: 'date' | reverse %}
+{% assign everything = site.posts  | sort: 'date' | reverse %}
 
 {% for post in everything %}
 #### [{{post.title}}]({{post.url}})
