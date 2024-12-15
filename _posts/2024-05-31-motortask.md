@@ -1,5 +1,6 @@
 ---
 title: Common misconceptions about the complexity in robotics vs AI
+tldr: Why do the robots move so unnatural, now that chat bots are human-like?
 ---
 Tags: #blog #robotics
 
