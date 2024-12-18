@@ -7,10 +7,28 @@ twitter_username: "DanOL71607511"
 
 collections:
   projects:
-    output: false 
+    output: true
 
     #remote_theme: pages-themes/tactile@v0.2.0
     #plugins:
     #- jekyll-remote-theme # add this line to the plugins list if you already have one
   
+defaults:
+  - 
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "default"
+  - 
+    scope:
+      path: "assets/images"
+    values:
+      image: true
+  - 
+    scope:
+      path: "assets/videos"
+    values:
+      video: true
+
 theme: jekyll-theme-slate
