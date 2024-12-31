@@ -90,7 +90,7 @@ Enough about the faults, now about the funny faults.
 
 {% assign video_files = site.static_files | where: "video", true  %}
 {% for file in video_files %}
-   {% if file.name == 'xgoSoundandmove2.mp4' %}
+   {% if file.name == 'xgoSoundandmove.mp4' %}
 <video src="{{file.path}}" controls="controls" style="max-width: 630px;">
 </video>
    {% endif %}
