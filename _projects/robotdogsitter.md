@@ -34,13 +34,10 @@ I've been in the process of studying the MIT course [Underactuated Robotics](htt
 
 Since version 2 is made in Raspberry Pi, I thought it would probably be an easier platform to just crank up a project from scratch. But Robotics 101 says *the devil is always in the details* and even simple solutions with simple moving parts fail, [something I should be well aware of]({% post_url 2024-05-31-motortask %}). Anyway, I just coded up something simple: using python & ZMQ for remote-control fun, then openCV +  YoloFast with onnxruntime for detecting the dogs & some simple state-machine for chasing them and getting their attention. I didn't want to get boggled down in control algorithms for now, so I went with some built-in gate-control libraries. 
 
-{% assign video_files = site.static_files | where: "video", true  %}
-{% for file in video_files %}
-   {% if file.name == 'gimbalandxgo.mp4' %}
-<video src="https://github.com/Harimus/Harimus.github.io/raw/refs/heads/master/assets/videos/gimbalandxgo.mp4" controls="controls" style="max-width: 630px;">
+<div class="videoWrapper">
+<video src="https://github.com/Harimus/Harimus.github.io/raw/refs/heads/master/assets/videos/gimbalandxgo.mp4" controls="controls">
 </video>
-   {% endif %}
-{% endfor %}
+</div>
 \*No dog was harmed in the process of making this project! Dog uncle cares about his dog-nephews =)
 
 It worked well for a weekend project, with less than a day spent on it. I had fun ~~scaring~~ playing around with the two dogs. Controlling it from the robot's POV was very fun, even if some noticeable delay was introduced with distance since I was just using my phone as a wifi router. The Automation part, predictably, didn't go as well. (one or two successes that I forgot to record...) The simple logic (pseudo code, simplification of simplification):
@@ -88,13 +85,10 @@ Enough about the faults, now about the funny faults.
 
 **Test time affects deployment**. Now this is specific to dogs. While working on it, I realized that version two XGO quadruped came with a microphone. So I went and downloaded some funny short sound clips such as dog toys squeaking, barking, or dog crying. I thought this would dramatically simplify the problem by making the dogs come to the robot, rather than the other way around. And initially, testing it, it worked! **Caveat**: dogs got used to it after about 5 tests, and started to ignore it. So when I finally put everything together it helped very little. 
 
-{% assign video_files = site.static_files | where: "video", true  %}
-{% for file in video_files %}
-   {% if file.name == 'xgoSoundandmove.mp4' %}
-<video src="https://github.com/Harimus/Harimus.github.io/raw/refs/heads/master/assets/videos/xgoSoundandmove.mp4" controls="controls" style="max-width: 630px;">
+<div class="videoWrapper">
+<video src="https://github.com/Harimus/Harimus.github.io/raw/refs/heads/master/assets/videos/xgoSoundandmove.mp4" controls="controls">
 </video>
-   {% endif %}
-{% endfor %}
+</div>
 
 This was just a fun weekend project conducted haphazardly.
 This project ended up ignoring all the parts about control, (using pre-existing solutions) and skip motion planning. 
